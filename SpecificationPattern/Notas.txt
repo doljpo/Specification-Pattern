@@ -1,0 +1,65 @@
+﻿O padrão Specification consiste em:
+	- criar uma interface que dirá se o objeto atende ou não um critério específico
+
+A ideia é basicamente:
+
+interface ISpecification<T>
+{
+	bool IsSatified(T t);
+}
+
+E uma outra interface que vai usar a ISpecification:
+
+interface IFilter<T>
+{
+	IEnumerable<T> Filter(IEnumerable<T> objs, ISpecification<T> spec);
+}
+
+Ou seja, a qualquer momento posso:
+	- criar uma especificação e testar se o objeto:
+		- atende o critério, IsSatisfied == true
+		- ou não atende, IsSatisfied == false
+
+
+A implementação da lógica depende do contexto/classe que usará a specification.
+Exemplo:
+
+	Dentre vários tipos de carros, preciso recuperar apenas os carros SUV
+	Poderia ser algo como:
+
+
+	public class TypeOfCarSpecification : ISpecification<Car>
+	{
+		private CarType type;
+
+		public TypeOfCarSpecification(CarType type)
+		{
+			this.type = type;
+		}
+
+		public bool IsSatisfied(Car car)
+		{
+			return car.type == type;
+		}
+	}
+	...
+	public class CarFilter : IFilter<Car>
+	{
+		public IEnumerable<Car> Filter(IEnumerable<Car> cars, ISpecification<T> spec)
+		{
+			foreach(var c in cars)
+				if (spec.IsSatisfied(car))
+					yield return c;
+		}
+	}
+	...
+	public Car GetOnlySuvCars(IEnumerable<Car> cars)
+	{
+		var suvFilter = new CarFilter();
+
+		WriteLine("SUVs")
+		foreach(var car in suvFilter.Filter(cars, new TypeOfCarSpecification(CarType.SUV))
+		{
+			WriteLine($"{car.Name}");
+		}
+	}
