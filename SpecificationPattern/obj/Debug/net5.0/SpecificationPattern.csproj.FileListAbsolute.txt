@@ -1,0 +1,16 @@
+D:\Estudos\Programacao\C#\Design Patterns\Specification Pattern\SpecificationPattern\SpecificationPattern\bin\Debug\net5.0\SpecificationPattern.exe
+D:\Estudos\Programacao\C#\Design Patterns\Specification Pattern\SpecificationPattern\SpecificationPattern\bin\Debug\net5.0\SpecificationPattern.deps.json
+D:\Estudos\Programacao\C#\Design Patterns\Specification Pattern\SpecificationPattern\SpecificationPattern\bin\Debug\net5.0\SpecificationPattern.runtimeconfig.json
+D:\Estudos\Programacao\C#\Design Patterns\Specification Pattern\SpecificationPattern\SpecificationPattern\bin\Debug\net5.0\SpecificationPattern.runtimeconfig.dev.json
+D:\Estudos\Programacao\C#\Design Patterns\Specification Pattern\SpecificationPattern\SpecificationPattern\bin\Debug\net5.0\SpecificationPattern.dll
+D:\Estudos\Programacao\C#\Design Patterns\Specification Pattern\SpecificationPattern\SpecificationPattern\bin\Debug\net5.0\ref\SpecificationPattern.dll
+D:\Estudos\Programacao\C#\Design Patterns\Specification Pattern\SpecificationPattern\SpecificationPattern\bin\Debug\net5.0\SpecificationPattern.pdb
+D:\Estudos\Programacao\C#\Design Patterns\Specification Pattern\SpecificationPattern\SpecificationPattern\obj\Debug\net5.0\SpecificationPattern.csproj.AssemblyReference.cache
+D:\Estudos\Programacao\C#\Design Patterns\Specification Pattern\SpecificationPattern\SpecificationPattern\obj\Debug\net5.0\SpecificationPattern.GeneratedMSBuildEditorConfig.editorconfig
+D:\Estudos\Programacao\C#\Design Patterns\Specification Pattern\SpecificationPattern\SpecificationPattern\obj\Debug\net5.0\SpecificationPattern.AssemblyInfoInputs.cache
+D:\Estudos\Programacao\C#\Design Patterns\Specification Pattern\SpecificationPattern\SpecificationPattern\obj\Debug\net5.0\SpecificationPattern.AssemblyInfo.cs
+D:\Estudos\Programacao\C#\Design Patterns\Specification Pattern\SpecificationPattern\SpecificationPattern\obj\Debug\net5.0\SpecificationPattern.csproj.CoreCompileInputs.cache
+D:\Estudos\Programacao\C#\Design Patterns\Specification Pattern\SpecificationPattern\SpecificationPattern\obj\Debug\net5.0\SpecificationPattern.dll
+D:\Estudos\Programacao\C#\Design Patterns\Specification Pattern\SpecificationPattern\SpecificationPattern\obj\Debug\net5.0\ref\SpecificationPattern.dll
+D:\Estudos\Programacao\C#\Design Patterns\Specification Pattern\SpecificationPattern\SpecificationPattern\obj\Debug\net5.0\SpecificationPattern.pdb
+D:\Estudos\Programacao\C#\Design Patterns\Specification Pattern\SpecificationPattern\SpecificationPattern\obj\Debug\net5.0\SpecificationPattern.genruntimeconfig.cache
