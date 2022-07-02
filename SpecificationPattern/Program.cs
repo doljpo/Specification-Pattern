@@ -73,7 +73,8 @@ namespace SpecificationPattern
             // The result is:
 
             System.Console.WriteLine("Medium Green Products");
-            foreach (var p in productFilter.Filter(products, new AndSpecification(Color.Green, Size.Medium)))
+            foreach (var p in productFilter.Filter(products, new AndSpecification(
+                new ColorSpecification(Color.Green), new SizeSpecification(Size.Medium))))
             {
                 System.Console.WriteLine($" - {p.Name}");
             }
