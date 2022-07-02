@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Estudos\\Programacao\\C#\\Design Patterns\\Specification Pattern\\SpecificationPattern\\SpecificationPattern\\SpecificationPattern.csproj",
+      "projectUniqueName": "D:\\Estudos\\Programacao\\C#\\Design Patterns\\Specification-Pattern\\SpecificationPattern\\SpecificationPattern.csproj",
       "projectName": "SpecificationPattern",
-      "projectPath": "D:\\Estudos\\Programacao\\C#\\Design Patterns\\Specification Pattern\\SpecificationPattern\\SpecificationPattern\\SpecificationPattern.csproj",
+      "projectPath": "D:\\Estudos\\Programacao\\C#\\Design Patterns\\Specification-Pattern\\SpecificationPattern\\SpecificationPattern.csproj",
       "packagesPath": "C:\\Users\\doljp\\.nuget\\packages\\",
-      "outputPath": "D:\\Estudos\\Programacao\\C#\\Design Patterns\\Specification Pattern\\SpecificationPattern\\SpecificationPattern\\obj\\",
+      "outputPath": "D:\\Estudos\\Programacao\\C#\\Design Patterns\\Specification-Pattern\\SpecificationPattern\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\doljp\\AppData\\Roaming\\NuGet\\NuGet.Config",
