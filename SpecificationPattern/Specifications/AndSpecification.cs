@@ -1,21 +1,21 @@
 ﻿using SpecificationPattern.Interfaces;
+using System;
 
 namespace SpecificationPattern.Specifications
 {
     public class AndSpecification : ISpecification<Product>
     {
-        private Enums.Color color;
-        private Enums.Size size;
+        private ISpecification<Product> first, second;
 
-        public AndSpecification(Enums.Color color, Enums.Size size)
+        public AndSpecification(ISpecification<Product> first, ISpecification<Product> second)
         {
-            this.color = color;
-            this.size = size;
+            this.first = first ?? throw new ArgumentNullException(paramName: nameof(first));
+            this.second = second ?? throw new ArgumentNullException(paramName: nameof(second));
         }
 
         public bool IsSatisfied(Product product)
         {
-            return product.Color == color && product.Size == size;
+            return first.IsSatisfied(product) && second.IsSatisfied(product);
         }
     }
 }
